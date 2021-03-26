@@ -1,0 +1,56 @@
+.grid-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    position: relative;
+    text-align: left;
+    background-color: #192DA1;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 345px;
+    display: grid;
+    grid-template-columns: 10px 200px 10px 115px 10px;
+    grid-template-rows: 10px 300px 10px min-content 10px;
+    /* gap: 5px 5px; */
+    grid-template-areas:
+    ". . . . ."
+      ". Image . InfoHolder ."
+      ". . . . ."
+      ". Desc Desc Desc ."
+      ". . . . .";
+  }
+  
+  .Image { 
+    grid-area: Image;
+    border: 1px solid black;
+   }
+  
+  .Desc { grid-area: Desc; }
+  
+  .InfoHolder {
+    display: grid;
+    grid-template-columns: 145px;
+    grid-template-rows: min-content 20px 20px 2fr;
+
+    grid-template-areas:
+      "Title"
+      "Issue"
+      "Price"
+      "Blank";
+    grid-area: InfoHolder;
+  }
+  
+  .TitleD { 
+      grid-area: Title;
+      font-size: 30px;
+     }
+  
+  .Issue { grid-area: Issue; }
+  
+  .Price { grid-area: Price; }
+  
+  .Blank { grid-area: Blank; }
+  

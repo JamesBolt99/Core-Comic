@@ -1,0 +1,103 @@
+.grid-containerI {
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    position: relative;
+    text-align: left;
+    color: white;
+    width: 345px;
+    display: grid;
+    grid-template-columns: 345px;
+    grid-template-rows: 50px min-content;
+    gap: 0px 0px;
+    grid-template-areas: "TitleI" "Content";
+}
+
+.TitleI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111E6C;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: bolder;
+    font-size: 150%;
+    grid-area: TitleI;
+
+}
+
+.Content {
+    align-items: center;
+    background: #2039CC;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: 10px 100px 1.2fr;
+    grid-template-rows: 40px 40px 40px min-content 40px;
+    gap: 10px 5px;
+    grid-template-areas: ". ComicTitleI TitleInput" ". IssueNoI IssueInput" ". PriceI PriceInput" ". DescI DescInput" ". ImageI ImageInput";
+    grid-area: Content;
+}
+.NewButton{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    height: 40px;
+    background-color: transparent;
+    border: transparent;
+    width: 345px;
+   
+}
+.ButtonHolder {
+    background: #192DA1;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    width: 345px;
+    text-align: center;
+
+}
+
+.ComicTitleI {
+    grid-area: ComicTitleI;
+}
+
+.TitleInput {
+    grid-area: TitleInput;
+}
+
+.IssueNoI {
+    grid-area: IssueNoI;
+}
+
+.IssueInput {
+    grid-area: IssueInput;
+}
+
+.PriceI {
+    grid-area: PriceI;
+}
+
+.PriceInput {
+    grid-area: PriceInput;
+}
+
+.DescI {
+    grid-area: DescI;
+}
+
+.DescInput {
+    grid-area: DescInput;
+}
+
+.ImageI {
+    grid-area: ImageI;
+}
+
+.ImageInput {
+    grid-area: ImageInput;
+}

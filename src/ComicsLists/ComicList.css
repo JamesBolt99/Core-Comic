@@ -1,0 +1,95 @@
+
+.ComicHolder {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 235px;
+    height: 100px;
+    left: 0px;
+    top: 10px;
+
+    color: white;
+    margin: 10px 0px;
+
+    background: #2039CC;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ComicTitle {
+    position: absolute;
+    left: 80px;
+    top: -10px;
+}
+.ComicPrice {
+    position: absolute;
+    left: 80px;
+    top: 60px;
+}
+.ComicImage {
+    position: absolute;
+    height: 90px;
+    width: 60px;
+    left: 5px;
+    top: 3px;
+    border: 1px solid black;
+}
+.AddNew {
+    padding: 10px;
+    color: white;
+    position: relative;
+    top: 30px;
+    background: #2039CC;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.DelButton{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    background: #192DA1;
+    border: 3px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Info {
+    margin:0px;
+    width: fit-content;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+.Add {
+    position: relative;
+    top: 10px;
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: #192DA1;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.NewItem {
+    position: relative;
+    top: 10px;
+    width: 345px;
+    height: 60px;
+    color: white;
+    background-color: #192DA1;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.NewButtonLink {
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    width: 345px;
+    height: 60px;
+    color: white;
+    background-color: #192DA1;
+    border: 2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
